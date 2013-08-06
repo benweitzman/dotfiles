@@ -1,0 +1,16 @@
+Config { font = "-*-terminus-*-r-normal-*-*-120-*-*-*-*-iso8859-*"
+       , bgColor = "#0f0f0f"
+       , fgColor = "#7f7f7f"
+       , position = Top
+       , lowerOnStart = True
+       , commands = [ Run Network "eth0" ["-t","DL: <rx>KB|<tx>KB","-p","3"] 10
+                    , Run Cpu ["-t", "CPU: <total>%","-p","2"] 10
+                    , Run Memory ["-t","MEM: <usedratio>%","-p","2"] 10
+		    , Run Date "%A %B%e %_H:%M" "date" 10
+		    , Run StdinReader
+		    , Run Uptime ["-t", "UPTM: <days>:<minutes>:<hours>","-p","2"] 10
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = " %StdinReader% }{ <fc=#4c8ea1>[</fc>%date%<fc=#4c8ea1>]</fc>"
+       }
