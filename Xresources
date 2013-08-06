@@ -1,0 +1,60 @@
+	xterm*background:	grey10
+	emacs.background: 	grey10
+	xterm*foreground:	grey90
+	emacs.foreground: 	grey90
+!	xterm*faceName:		terminus-12
+	emacs.font:		terminus-12
+	xterm*BorderWidth:	1
+
+! sets color scheme
+! black
+	xterm*color0: #222222
+	xterm*color8: #454545
+! red
+	xterm*color1: #9E5641
+	xterm*color9: #CC896D
+! green
+	xterm*color2: #6C7E55
+	xterm*color10: #C4DF90
+! yellow
+	xterm*color3: #CAAF2B
+	xterm*color11: #FFE080
+!blue
+	xterm*color4: #7FB8D8
+	xterm*color12: #B8DDEA
+!magenta
+	xterm*color5: #956D9D
+	xterm*color13: #C18FCB
+!cyan
+	xterm*color6: #4c8ea1
+	xterm*color14: #6bc1d0
+!white
+	xterm*color7: #808080
+	xterm*color15: #cdcdcd
+! !black
+! xterm*color0:    #322a2c
+! xterm*color8:    #46423b
+! !red
+! xterm*color1:    #a04363
+! xterm*color9:    #ae837a
+! !green
+! xterm*color2:    #9b9329
+! xterm*color10:   #b4aa30
+! !yellow
+! !xterm*color3:    #c77920
+! xterm*color3:    #bf7a29
+! xterm*color11:   #c7a551
+! !blue
+! xterm*color4:    #6a8c8c
+! xterm*color12:   #74999e
+! !magenta
+! xterm*color5:    #856774
+! xterm*color13:   #9c818e
+! !cyan
+! xterm*color6:    #757978
+! xterm*color14:   #9fa590
+! !white
+! xterm*color7:    #bcbcaf
+! xterm*color15:   #c1c4bc
+! *background:        #211708
+! *foreground:        #978f83
